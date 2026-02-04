@@ -67,3 +67,45 @@ nav {
   border-radius: 40px;
   border: none;
   }
+
+main {
+  width: 75%;
+  margin: 20px auto;
+  .landing h2 {
+    font-weight: 400;
+    margin-top: 120px;
+    font-size: 26px;
+    letter-spacing: -0.325px;
+  }
+
+ 
+ .cta-btn {
+   color: var(--bgc-black);
+   background: var(--white-pri);
+   font-size: 16px;
+   padding: 12.8px 21.6px;
+   border-radius: 40px;
+   border: none;
+   border: 1px solid var(--bgc-black);
+   font-weight: 400px;
+   margin: 20px 0;
+ }
+ .main-landing-page {
+   position: relative;
+ }
+ .landing-bg {
+   width: 100%;
+   margin: 60px 0;
+   border-radius: 4px;
+   height: 42.5rem;
+   position: relative;
+ }
+ .landing-code {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   width: 80%;
+   border-radius: 4px;
+ }
+}
